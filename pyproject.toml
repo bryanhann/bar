@@ -1,0 +1,12 @@
+[project]
+name = "tmp-a"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bch-foo",
+]
+
+[tool.uv.sources]
+bch-foo = { path = "../bch-foo" }
